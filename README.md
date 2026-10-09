@@ -1,4 +1,4 @@
-# The parity conjecture for independence polynomials of generalized Petersen graphs is false
+# The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself
 
 Deep Bhattacharjee
 
@@ -8,7 +8,10 @@ polynomial of the generalized Petersen graph GP(n,k) has only real roots if and 
 The conjecture contradicts itself. If n ≡ 3 (mod 4), then 2 · (n − 1)/2 ≡ −1 (mod n), so the map
 u_i ↦ v_{li}, v_i ↦ u_{li} with l = (n − 1)/2 is an isomorphism GP(n,2) ≅ GP(n,l), and l is odd. The
 conjecture asks the same polynomial to be real-rooted (k = 2) and not real-rooted (k = l), so it
-fails at one of the two pairs for every such n. Each direction also fails on its own:
+fails at one of the two pairs for every such n. Each direction also fails on its own, as John
+Erlbacher's Demonstrandum project found first, by exact computation, in June 2026 (*Demonstrandum
+verified artifacts*, doi:10.5281/zenodo.20673864, result 6; they also noted GP(7,2) ≅ GP(7,3)). The
+paper credits them and gives hand proofs of these two facts:
 
 - I(GP(7,3); x) = 1 + 14x + 70x² + 154x³ + 147x⁴ + 49x⁵ has five real roots, although 3 is odd;
 - I(GP(9,2); x) = 1 + 18x + 126x² + 438x³ + 801x⁴ + 747x⁵ + 303x⁶ + 27x⁷ has exactly five real roots

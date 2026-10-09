@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
-title: "The parity conjecture for independence polynomials of generalized Petersen graphs is false"
+title: "The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself"
 type: software
 authors:
   - family-names: Bhattacharjee
@@ -21,10 +21,11 @@ keywords:
 abstract: >-
   It has been conjectured that for n >= 2k+1 the independence polynomial of
   the generalized Petersen graph GP(n,k) has only real roots if and only if k
-  is even. We show that the statement contradicts itself: GP(n,2) is
+  is even. Erlbacher's Demonstrandum project refuted it first, with GP(7,3),
+  GP(9,2) and GP(7,2) = GP(7,3). We show that the statement contradicts itself: GP(n,2) is
   isomorphic to GP(n,(n-1)/2) whenever n = 3 (mod 4), and (n-1)/2 is then
-  odd. We also show that each direction fails on its own, at GP(7,3) and at
-  GP(9,2).
+  odd, and give hand proofs that each direction fails on its own, at GP(7,3)
+  and at GP(9,2).
 references:
   - type: article
     title: "Parity-dependent real-rootedness in independence polynomials of generalized Petersen graphs"
@@ -33,3 +34,11 @@ references:
         given-names: R.
     year: 2026
     url: "https://arxiv.org/abs/2601.03293"
+  - type: software
+    title: "Demonstrandum verified artifacts: nine papers in combinatorics (counterexamples, records, theorems, and Lean formalizations)"
+    authors:
+      - family-names: Erlbacher
+        given-names: John
+    year: 2026
+    doi: 10.5281/zenodo.20673864
+    notes: "Result 6: the first refutation of the parity conjecture"

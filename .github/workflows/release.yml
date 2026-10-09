@@ -43,5 +43,5 @@ jobs:
         run: |
           gh release create "$TAG" dist/* \
             --target "$TARGET" \
-            --title "$TAG: The parity conjecture for independence polynomials of generalized Petersen graphs is false" \
+            --title "$TAG: The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself" \
             --notes-file .github/RELEASE_NOTES.md

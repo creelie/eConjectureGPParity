@@ -24,12 +24,12 @@
 \numberwithin{equation}{section}
 
 \newcommand{\GP}{\mathrm{GP}}
-\hypersetup{pdftitle={The parity conjecture for independence polynomials of generalized Petersen graphs is false},pdfauthor={Deep Bhattacharjee}}
+\hypersetup{pdftitle={The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself},pdfauthor={Deep Bhattacharjee}}
 \providecommand{\doi}[1]{\url{https://doi.org/#1}}
 
 \begin{document}
 
-\title[Independence polynomials of generalized Petersen graphs]{The parity conjecture for independence polynomials\\ of generalized Petersen graphs is false}
+\title[Independence polynomials of generalized Petersen graphs]{The parity conjecture for independence polynomials\\ of generalized Petersen graphs contradicts itself}
 
 \author{Deep Bhattacharjee}
 \address{Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL),\newline Bhubaneswar, Odisha 751030, India}
@@ -42,7 +42,7 @@
 \keywords{independence polynomial, real roots, generalized Petersen graph, graph isomorphism}
 
 \begin{abstract}
-It has been conjectured that for $n\ge 2k+1$ the independence polynomial of the generalized Petersen graph $\GP(n,k)$ has only real roots if and only if $k$ is even. We show that the statement contradicts itself: $\GP(n,2)\cong\GP(n,(n-1)/2)$ whenever $n\equiv 3\pmod 4$, and $(n-1)/2$ is then odd. We also show that each direction fails on its own, at $\GP(7,3)$ and at $\GP(9,2)$.
+Pandey conjectured that for $n\ge 2k+1$ the independence polynomial of the generalized Petersen graph $\GP(n,k)$ has only real roots if and only if $k$ is even. Erlbacher's Demonstrandum project refuted this by exact computation, with $\GP(7,3)$, $\GP(9,2)$ and the isomorphism $\GP(7,2)\cong\GP(7,3)$. We show that the statement contradicts itself for every $n\equiv 3\pmod 4$, since then $\GP(n,2)\cong\GP(n,(n-1)/2)$ and $(n-1)/2$ is odd, and we give short proofs that each direction fails on its own.
 \end{abstract}
 
 \maketitle
@@ -71,6 +71,8 @@ The following hold.
 \end{theorem}
 
 Part~(a) is a statement about isomorphisms alone and needs no knowledge of the polynomials. Parts~(b) and~(c) show that neither implication of the conjecture survives separately.
+
+The conjecture was first refuted by the Demonstrandum project of Erlbacher~\cite{Dem}, which computed the polynomials of $\GP(7,3)$ and $\GP(9,2)$ exactly, counted their real roots with Sturm sequences, and noted the isomorphism $\GP(7,2)\cong\GP(7,3)$; it also noted that the triangular prism $\GP(3,1)$, whose polynomial is $1+6x+6x^2$, is real-rooted. Parts~(b) and~(c) are therefore theirs, and we include them with proofs that need only sign changes and Vieta's formulas. Part~(a) turns their isomorphism into an infinite family.
 
 \section{Isomorphic generalized Petersen graphs}
 
@@ -153,6 +155,9 @@ J.~I. Brown, C.~A. Hickman and R.~J. Nowakowski, \emph{On the location of roots 
 
 \bibitem{CS}
 M.~Chudnovsky and P.~Seymour, \emph{The roots of the independence polynomial of a clawfree graph}, J. Combin. Theory Ser.~B \textbf{97} (2007), 350--357. \doi{10.1016/j.jctb.2006.06.001}
+
+\bibitem{Dem}
+J.~Erlbacher, \emph{Demonstrandum verified artifacts: nine papers in combinatorics (counterexamples, records, theorems, and Lean formalizations)}, software and data, 2026, result~6. \doi{10.5281/zenodo.20673864}
 
 \bibitem{Pandey}
 R.~Pandey, \emph{Parity-dependent real-rootedness in independence polynomials of generalized Petersen graphs}, preprint, 2026. \href{https://arxiv.org/abs/2601.03293}{arXiv:2601.03293}

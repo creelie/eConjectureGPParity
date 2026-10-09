@@ -1,6 +1,6 @@
 /-
   Kernel-checked certificate for
-  "The parity conjecture for independence polynomials of generalized Petersen graphs is false".
+  "The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself".
 
   GP(n,k) has vertices u_0..u_{n-1} (numbered 0..n-1) and v_0..v_{n-1} (numbered n..2n-1) and the
   edges u_i u_{i+1}, u_i v_i, v_i v_{i+k}, indices mod n.

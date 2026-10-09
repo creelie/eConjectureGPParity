@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The parity conjecture for independence polynomials of generalized Petersen graphs is false"
+type: software
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+    affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    email: d.bhattacharjee@erl-forschung.de
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/creelie/eConjectureGPParity"
+keywords:
+  - independence polynomial
+  - real roots
+  - generalized Petersen graph
+  - graph isomorphism
+  - counterexample
+abstract: >-
+  It has been conjectured that for n >= 2k+1 the independence polynomial of
+  the generalized Petersen graph GP(n,k) has only real roots if and only if k
+  is even. We show that the statement contradicts itself: GP(n,2) is
+  isomorphic to GP(n,(n-1)/2) whenever n = 3 (mod 4), and (n-1)/2 is then
+  odd. We also show that each direction fails on its own, at GP(7,3) and at
+  GP(9,2).
+references:
+  - type: article
+    title: "Parity-dependent real-rootedness in independence polynomials of generalized Petersen graphs"
+    authors:
+      - family-names: Pandey
+        given-names: R.
+    year: 2026
+    url: "https://arxiv.org/abs/2601.03293"

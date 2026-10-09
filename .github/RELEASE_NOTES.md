@@ -1,6 +1,6 @@
-**The parity conjecture for independence polynomials of generalized Petersen graphs is false**, by Deep Bhattacharjee.
+**The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself**, by Deep Bhattacharjee.
 
-Pandey (2026) conjectured that for n ≥ 2k + 1 the independence polynomial of GP(n,k) has only real roots if and only if k is even. The paper shows that the statement contradicts itself and that each direction fails on its own.
+Pandey (2026) conjectured that for n ≥ 2k + 1 the independence polynomial of GP(n,k) has only real roots if and only if k is even. John Erlbacher's Demonstrandum project refuted it first, in June 2026, by exact computation with GP(7,3), GP(9,2) and the isomorphism GP(7,2) ≅ GP(7,3) (doi:10.5281/zenodo.20673864, result 6). The paper credits that refutation, shows that the statement contradicts itself for every n ≡ 3 (mod 4), and gives hand proofs that each direction fails on its own.
 
 | Claim | Reason |
 |---|---|

@@ -1,8 +1,10 @@
 /-
-  The parity conjecture for independence polynomials of generalized Petersen graphs is false.
+  The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself.
 
   Conjecture 4.1 of Pandey (2026): for all integers n ≥ 2k + 1 (k ≥ 1), the independence polynomial
-  of GP(n,k) has only real roots if and only if k is even.
+  of GP(n,k) has only real roots if and only if k is even. It was first refuted by J. Erlbacher's
+  Demonstrandum project (doi:10.5281/zenodo.20673864, result 6) with GP(7,3), GP(9,2) and
+  GP(7,2) ≅ GP(7,3); this file formalises the hand proofs of the paper and the infinite family.
 
   Proved below with Mathlib:
   * `gp_iso` (Lemma 2.1): if kl = ±1 in ZMod n, then u_i ↦ v_{li}, v_i ↦ u_{li} is an isomorphism

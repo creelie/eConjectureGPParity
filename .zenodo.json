@@ -1,5 +1,5 @@
 {
-  "title": "The parity conjecture for independence polynomials of generalized Petersen graphs is false",
+  "title": "The parity conjecture for independence polynomials of generalized Petersen graphs contradicts itself",
   "version": "1.0.0",
   "upload_type": "publication",
   "publication_type": "preprint",
@@ -10,7 +10,7 @@
       "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
     }
   ],
-  "description": "<p>It has been conjectured that for n &ge; 2k+1 the independence polynomial of the generalized Petersen graph GP(n,k) has only real roots if and only if k is even. We show that the statement contradicts itself: GP(n,2) &cong; GP(n,(n&minus;1)/2) whenever n &equiv; 3 (mod 4), and (n&minus;1)/2 is then odd. We also show that each direction fails on its own: the independence polynomial of GP(7,3) has only real roots, and that of GP(9,2) has exactly five real roots out of seven.</p><p>The archive contains the paper (PDF, LaTeX sources with the figure as PNG, arXiv tarball) and independent checks of every finite claim in C, C++, Bash, Python, Julia and Lean 4. A Lean 4 proof with Mathlib covers the isomorphism lemma for every n, the self-contradiction for every n &equiv; 3 (mod 4), the refutation of the conjecture as stated, and the root counts, using only the standard axioms; a second Lean file checks the isomorphisms for n &le; 199, the three polynomials and the numerical inequalities in the kernel.</p>",
+  "description": "<p>Pandey conjectured that for n &ge; 2k+1 the independence polynomial of the generalized Petersen graph GP(n,k) has only real roots if and only if k is even. John Erlbacher's Demonstrandum project refuted this first, by exact computation, with GP(7,3), GP(9,2) and the isomorphism GP(7,2) &cong; GP(7,3) (doi:10.5281/zenodo.20673864, result 6). We show that the statement contradicts itself: GP(n,2) &cong; GP(n,(n&minus;1)/2) whenever n &equiv; 3 (mod 4), and (n&minus;1)/2 is then odd. We also give hand proofs that each direction fails on its own: the independence polynomial of GP(7,3) has only real roots, and that of GP(9,2) has exactly five real roots out of seven.</p><p>The archive contains the paper (PDF, LaTeX sources with the figure as PNG, arXiv tarball) and independent checks of every finite claim in C, C++, Bash, Python, Julia and Lean 4. A Lean 4 proof with Mathlib covers the isomorphism lemma for every n, the self-contradiction for every n &equiv; 3 (mod 4), the refutation of the conjecture as stated, and the root counts, using only the standard axioms; a second Lean file checks the isomorphisms for n &le; 199, the three polynomials and the numerical inequalities in the kernel.</p>",
   "keywords": [
     "independence polynomial",
     "real roots",
@@ -34,6 +34,12 @@
       "relation": "references",
       "resource_type": "publication-preprint",
       "scheme": "arxiv"
+    },
+    {
+      "identifier": "10.5281/zenodo.20673864",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
     }
   ],
   "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
